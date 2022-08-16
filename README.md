@@ -1,2 +1,3 @@
 # driveIT
-project of driving lessons 
+hi thats a driiving lessons platform for schedule 
+feel free to use it
