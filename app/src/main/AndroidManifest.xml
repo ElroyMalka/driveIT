@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gema.gematryy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="מחשבון שנים עברי לועזי"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Gematry"
+        tools:ignore="ExtraText">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9707014388778446~2254289361" />
+
+        <activity android:name="com.gema.gematryy.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
